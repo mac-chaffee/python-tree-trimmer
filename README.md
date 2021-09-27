@@ -43,3 +43,7 @@ Running this on Sep 26th found about 30 "tiny" packages, which I trimmed down (r
 * https://github.com/satoshi03/slack-python-webhook only has 1694 python bytes
 
 I think the fact that the list is so short is testament to the Python community's healthy relationship with dependencies. Or maybe that's incidental since dependency management is notoriously hard to do in Python so maybe people find it easier to write their own left-pad instead of figuring out which dep manager is in style now ;)
+
+## Next steps
+
+I need a way to find which packages import the above packages. I don't think this info is obtainable from pypi itself.
